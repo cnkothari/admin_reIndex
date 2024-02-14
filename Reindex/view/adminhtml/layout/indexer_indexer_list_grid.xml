@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * CNTechnoLabs
+ * Copyright (C) 2023 CNTechnoLabs 
+ *
+ * @category  CNTechnoLabs
+ * @package   CNTechnoLabs_Reindex
+ * @copyright Copyright (c) 2023 CNTechnoLabs
+ * @license   http://opensource.org/licenses/gpl-3.0.html GNU General Public License,version 3 (GPL-3.0)
+ * @author    CNTechnoLabs
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="adminhtml.indexer.grid.grid.massaction">
+            <arguments>
+                <argument name="options" xsi:type="array">
+                    <item name="reindex" xsi:type="array">
+                        <item name="label" xsi:type="string" translate="true">Reindex Data</item>
+                        <item name="url" xsi:type="string">cnt_reindex/index/reindex</item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>

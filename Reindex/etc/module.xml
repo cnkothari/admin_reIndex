@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+ <!-- 
+/**
+ * CNTechnoLabs
+ * Copyright (C) 2023 CNTechnoLabs 
+ *
+ * @category  CNTechnoLabs
+ * @package   CNTechnoLabs_Reindex
+ * @copyright Copyright (c) 2023 CNTechnoLabs
+ * @license   http://opensource.org/licenses/gpl-3.0.html GNU General Public License,version 3 (GPL-3.0)
+ * @author    CNTechnoLabs
+ */
+ -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSchemaLocation ="urn:magento:framework:Module/etc/module.xsd">
+
+    <module name="CNTechnoLabs_Reindex" setup_version="1.0.0">
+    	 <sequence>
+            <module name="Magento_Indexer" />
+            <module name="CNTechnoLabs_Core"/>
+        </sequence>
+    </module>
+    
+</config> 
